@@ -16,7 +16,7 @@ export default function Hero() {
             <p className="cap">From building your online presence to reaching the right audience and developing digital products, we bring marketing, creativity, and technology together to move your business forward.</p>
             <div className="badges"><span className="chip">Marketing · Creative · Technology</span><span className="chip">Built for Growing Businesses</span></div>
             <ul className="svclabels" aria-label="Services">
-              {['Digital Marketing', 'Meta Ads', 'Content Creation', 'Video Editing', 'Web Development', 'E-commerce', 'Web & App Development'].map((s) => <li key={s}>{s}</li>)}
+              {['Digital Marketing', 'Meta Ads', 'Content Creation', 'Video Editing', 'Web Development', 'E-commerce', 'Web & App Development.'].map((s) => <li key={s}>{s}</li>)}
             </ul>
           </div>
         </div>
